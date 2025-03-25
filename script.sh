@@ -19,3 +19,32 @@ parar_contenedor(){
     docker rm $CONTAINER_NAME
     echo "Contenedor parado y eliminado"
 }
+# Menú de opciones
+echo "Seleccione una opción:"
+echo "1. Construir la imagen"
+echo "2. Ejecutar el contenedor"
+echo "3. Detener el contenedor"
+echo "4. Limpiar la imagen"
+echo "5. Salir"
+read -p "Opción: " OPTION
+
+case $OPTION in
+    1)
+        build_image
+        ;;
+    2)
+        run_container
+        ;;
+    3)
+        stop_container
+        ;;
+    4)
+        clean_image
+        ;;
+    5)
+        echo "Saliendo..."
+        ;;
+    *)
+        echo "Opción no válida."
+        ;;
+esac
