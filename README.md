@@ -1,6 +1,6 @@
 # Proyecto Docker con Script Bash 🚀
 
-[![Docker Build](https://img.shields.io/docker/build/library/nginx?label=Docker%20Build)](https://hub.docker.com/_/nginx)
+[![Docker Build Status](https://img.shields.io/docker/cloud/build/mi-nginx?label=Docker%20Build)](https://hub.docker.com/r/mi-nginx)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Este proyecto configura un servidor web **Nginx** mediante **Docker** y automatiza tareas frecuentes a través de un script en **Bash**.
